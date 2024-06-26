@@ -8,4 +8,4 @@ function start() {
     console.log(another);
 }
 
-start();
+start(); // Uncaught referenceError

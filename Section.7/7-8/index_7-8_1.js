@@ -1,4 +1,4 @@
 {
     const message = 'hi';
 }
-console.log(message);
+console.log(message); // Uncaught referenceError
