@@ -9,4 +9,4 @@ const myObject = {
 const copyObject = { ...myObject };
 
 myObject.member[3] = 'd'; 
-console.log(copyObject.member); // { 1: 'b', 2: 'c' }
+console.log(copyObject.member); // { '1': 'b', '2': 'c', '3': 'd' }
