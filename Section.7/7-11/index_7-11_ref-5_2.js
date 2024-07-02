@@ -1,0 +1,1 @@
+table1.forEach(table2.addEntry, table2);
