@@ -1,11 +1,8 @@
-// 함수를 선언합니다.
-function print(name, count) {
-    // 함수 매개 변수 초기화
-    if (typeof(count) == "undefined") {
-        count = 1;
-    }
-    // 함수 본문
-    console.log(`${name}이/가 ${count}개 있습니다.`)
+function print(name, count = 1) {
+    count || 1; // 짧은 조건문을 이용한 초기화
+    count = typeof(count) != 'undefined' ? count : 1; // 조건 연산자를 활용한 초기화
+
+    console.log(`${name}이/가 ${count}개 있습니다.`);
 }
-// 함수를 호출합니다.
-print("사과");
+
+print('사과') // 사과이/가 1개 있습니다.
