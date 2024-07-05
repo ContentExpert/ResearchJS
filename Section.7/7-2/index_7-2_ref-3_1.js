@@ -1,5 +1,8 @@
-let a = 1;
-{
-    console.log(a);
-    let a = 2;
-}
+function a() {
+    console.log(b); // (1)
+    var b = 'bbb';
+    console.log(b); // (2)
+    function b() {}
+    console.log(b); // (3)
+  }
+  a();

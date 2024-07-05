@@ -1,10 +1,6 @@
-function a() {
-  var b;
-  function b() {}
+greeting();
+// TypeError: greeting is not a function
 
-  console.log(b); // (1)
-  b = 'bbb';
-  console.log(b); // (2)
-  console.log(b); // (3)
-}
-a();
+var greeting = function greeting() {
+    console.log("Hello!");
+};

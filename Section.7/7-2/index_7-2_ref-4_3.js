@@ -1,10 +1,5 @@
-function a() {
-  var b;
-  var b = function b() {};
+greeting = "Hello!";
+console.log(greeting);
+// Hello!
 
-  console.log(b); // (1)
-  b = 'bbb';
-  console.log(b); // (2)
-  console.log(b); // (3)
-}
-a();
+var greeting = "Howdy!";

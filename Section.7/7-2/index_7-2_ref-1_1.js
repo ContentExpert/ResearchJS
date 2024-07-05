@@ -1,6 +1,5 @@
-greeting();
-// Hello!
-
-function greeting() {
-    console.log("Hello!");
+let a = 1;
+{
+    console.log(a);
+    let a = 2;
 }
