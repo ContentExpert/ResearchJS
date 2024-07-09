@@ -1,0 +1,2 @@
+awesomeFunction.name;
+// "awesomeFunction"
