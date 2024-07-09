@@ -1,0 +1,7 @@
+getStudents();
+
+// ..
+
+function getStudents() {
+    // ..
+}

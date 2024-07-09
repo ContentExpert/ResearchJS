@@ -1,0 +1,3 @@
+var askQuestion = function ofTheTeacher(){
+    // ..
+};

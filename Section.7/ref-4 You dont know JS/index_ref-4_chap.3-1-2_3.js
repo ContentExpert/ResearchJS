@@ -1,0 +1,1 @@
+var arrCopy = [ ...arr ];
