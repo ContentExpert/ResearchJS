@@ -1,0 +1,1 @@
+console.log(iu.__proto__.getName.call(iu)); // 지금
