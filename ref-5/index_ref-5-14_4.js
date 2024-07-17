@@ -1,0 +1,1 @@
+find(myTree, "foo"); // 오류: find가 정의되지 않음
