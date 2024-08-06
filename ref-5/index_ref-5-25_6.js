@@ -1,0 +1,1 @@
+buffer.add === buffer.add.bind(buffer); // false
