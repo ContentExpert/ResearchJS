@@ -1,0 +1,1 @@
+u.__proto__ == User.prototype; // true

@@ -1,0 +1,1 @@
+var urls = paths.map(simpleURL.bind(null, "http", siteDomain));
