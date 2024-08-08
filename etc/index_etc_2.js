@@ -1,0 +1,1 @@
+let [firstName, surname] = "Bora Lee".split(' ');
