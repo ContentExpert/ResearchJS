@@ -1,8 +1,15 @@
-function makeSandwich() {
-    var magicingredient = "peanut butter";
-    function make(filling) {
-        return magicIngredient + " and " + filling;
-    }
-    return make("jelly");
-    }
-    makeSandwich(); // "peanut butter and jelly"
+function Member(name) {
+    this.name = name;
+    this.friends = [];
+}
+var a = new Member("Alice"),
+    b = new Member("Bob"),
+    c = new Member("Carol"),
+    d = new Member("Dieter"),
+    e = new Member("Eli"),
+    f = new Member("Fatima");
+a. friends.push(b);
+b. friends.push(c);
+c. friends.push(e);
+d. friends.push(b);
+e. friends.push(d, f);
